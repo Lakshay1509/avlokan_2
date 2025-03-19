@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { setSearchQuery, sortProducts, setCurrentPage } from '../redux/productSlice';
 import './ProductList.css';
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 4;
 
 const ProductList = () => {
   const dispatch = useDispatch();
